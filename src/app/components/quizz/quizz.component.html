@@ -1,0 +1,26 @@
+<div class="quizz__container">
+    <h3><a class="rafa" href="https://github.com/rafafreitasss/" target="_blank">QUIZ DO RAFINHA</a></h3>
+    <div class="quizz_logo">
+        <img src="assets/imgs/logo.png" alt="">
+        <h3>{{ title }}</h3>
+    </div>
+
+    <div *ngIf=!finished class="quizz-questions">
+        <h3>{{ questionSelected.question }}</h3>
+    </div>
+
+    <div *ngIf=!finished class="quizz_options">
+        <button 
+        *ngFor="let option of questionSelected.options; let i = index" 
+        (click) = 'playerChoose(option.alias)'
+        class="btn-option"
+        >
+            {{ option.name }}
+        </button>
+    </div>
+
+    <div *ngIf=finished class="quizz_results">
+        <h1>O Seu Resultado é:</h1>
+        <p>{{ answersSelected }}</p>
+    </div>
+</div>
