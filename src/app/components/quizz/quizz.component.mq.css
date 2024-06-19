@@ -11,6 +11,10 @@
     .quizz_logo img {
         max-width: 300px;
     }
+
+    .quizz-questions h3 {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 360px) {
