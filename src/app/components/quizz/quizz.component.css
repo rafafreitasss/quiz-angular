@@ -92,5 +92,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+.quizz_results h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quizz_results p {
+    text-align: center;
+    font-size: 1.2em;
 }
