@@ -76,5 +76,10 @@ export class QuizzComponent implements OnInit {
 
     return result
   }
-  
+
+  // Lógica para recarregar a página e reiniciar o quizz. 
+  resetQuizz() {
+    window.location.reload();
+  }
+
 }

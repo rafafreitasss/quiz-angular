@@ -104,3 +104,12 @@
     text-align: center;
     font-size: 1.2em;
 }
+
+.quizz_results button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #654ED2;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
