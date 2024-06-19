@@ -36,7 +36,7 @@
 
 .quizz-questions {
     display: flex;
-    
+    text-align: center;
     justify-content: center;
     align-items: center;
     border: 1px solid #4224d9;
